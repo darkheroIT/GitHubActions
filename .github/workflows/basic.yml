@@ -12,4 +12,8 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v3.0.0
       - run: echo "This repo is ${{ github.repository }}.."
+      - name: Run an inline script
+        run: 
+            mkdir newfolder
+            ls -l
     
