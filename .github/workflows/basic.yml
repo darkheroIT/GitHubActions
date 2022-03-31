@@ -9,4 +9,7 @@ jobs:
     
     steps: 
       - run: echo "This is running inside a ${{ runner.os }} server in GitHub"
+      - name: Checkout source code
+        uses: actions/checkout@v3.0.0
+      - run: echo "This repo is ${{ github.repository }}.."
     
