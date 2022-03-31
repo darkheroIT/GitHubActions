@@ -19,7 +19,9 @@ jobs:
         shell: bash
       - name: Run a script file from repo
         run: sh ./run.sh
-        shell: pwsh 
+        shell: pwsh
+        
+        
   Appium_Test_Job2:
     name: Appium test Job 2
     runs-on: ubuntu-latest
