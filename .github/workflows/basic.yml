@@ -17,4 +17,7 @@ jobs:
             mkdir newfolder
             ls -al
         shell: bash
+      - name: Run a script file from repo
+        run: sh ./run.sh
+        shell: pwsh
     
